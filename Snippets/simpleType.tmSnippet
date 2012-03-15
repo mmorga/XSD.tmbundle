@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;xs:simpleType name="$1"&gt;
+  &lt;xs:annotation&gt;
+    &lt;xs:documentation&gt;
+      $2
+    &lt;/xs:documenation&gt;
+  &lt;/xs:annotation&gt;
+  $3
+&lt;/xs:simpleType&gt;</string>
+	<key>name</key>
+	<string>simpleType</string>
+	<key>scope</key>
+	<string>text.xsd</string>
+	<key>tabTrigger</key>
+	<string>sim</string>
+	<key>uuid</key>
+	<string>EE6FC1B2-A4CF-4412-858C-5D71135F210C</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;xs:import namespace="${1:http://www.w3.org/2001/XMLSchema}" schemaLocation="${2}"/&gt;</string>
+	<key>name</key>
+	<string>import</string>
+	<key>scope</key>
+	<string>text.xsd</string>
+	<key>tabTrigger</key>
+	<string>imp</string>
+	<key>uuid</key>
+	<string>7D2888A5-DE0C-4000-8AD6-95371BA49FC6</string>
+</dict>
+</plist>

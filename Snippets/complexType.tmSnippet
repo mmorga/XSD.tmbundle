@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;xs:complexType name="$1"&gt;
+  &lt;xs:annotation&gt;
+    &lt;xs:documentation&gt;
+      $2
+    &lt;/xs:documentation&gt;
+  &lt;/xs:annotation&gt;
+  &lt;xs:sequence&gt;
+    &lt;xs:element name="$3" type="$4"/&gt;
+    $5
+  &lt;/xs:sequence&gt;
+&lt;/xs:complexType&gt;</string>
+	<key>name</key>
+	<string>complexType</string>
+	<key>scope</key>
+	<string>text.xsd</string>
+	<key>tabTrigger</key>
+	<string>com</string>
+	<key>uuid</key>
+	<string>74B5E355-0C11-4434-B84A-9C9B15829AD6</string>
+</dict>
+</plist>

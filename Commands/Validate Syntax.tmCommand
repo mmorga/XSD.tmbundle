@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+xmllint --htmlout --noout --schema "${TM_BUNDLE_SUPPORT}/XMLSchema.xsd" ${TM_FILEPATH} - 2&gt;&amp;1|perl -pe 's|^((?:&lt;/?[^&gt;]+&gt;)*)(.*?):(\d+):(.*error.*)|$1&lt;a href="txmt://open?url=file://$2&amp;line=$3"&gt;$4&lt;/a&gt;|'
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^V</string>
+	<key>name</key>
+	<string>Validate Syntax</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>scope</key>
+	<string>text.xsd</string>
+	<key>uuid</key>
+	<string>4438B62D-4B30-4AAE-A10A-4A156DAFD442</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>znexzbetn@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Mark Morga</string>
+	<key>description</key>
+	<string>Support for &lt;a href="http://www.w3.org/XML/Schema"&gt;XML Schema&lt;/a&gt; (XSD).</string>
+	<key>name</key>
+	<string>XSD</string>
+	<key>uuid</key>
+	<string>7B1F8E6C-C845-48D8-A43A-9F649FEB3420</string>
+  <key>mainMenu</key>
+  <dict>
+    <key>items</key>
+    <array>
+      <string>4438B62D-4B30-4AAE-A10A-4A156DAFD442</string>
+      <string>1F0506F5-0E04-4EE7-BB3C-7A406A803F4C</string>
+      <string>------------------------------------</string>
+      <string>45D876EB-E424-4343-93B4-C771A405DE2E</string>
+      <string>B7B7D12A-9886-4221-B631-782DC066F3F9</string>
+      <string>2ADFD6F4-DE0A-4FE9-8029-48AB83DC0320</string>
+      <string>74B5E355-0C11-4434-B84A-9C9B15829AD6</string>
+      <string>0135D75F-B731-4267-9552-8FC2DA03E8F2</string>
+      <string>7D2888A5-DE0C-4000-8AD6-95371BA49FC6</string>
+      <string>EE6FC1B2-A4CF-4412-858C-5D71135F210C</string>
+    </array>
+  </dict>
+</dict>
+</plist>
